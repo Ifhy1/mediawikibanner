@@ -34,10 +34,10 @@ body {
 .about {
   text-align: center;
   font-size: 1.2rem;
+  font-weight: bold;
   color: black;
   margin: 20px auto;
   padding: 10px;
-  background: gray;
 }
 
 
@@ -68,7 +68,8 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   align-items: center;
 }
 
@@ -95,9 +96,10 @@ body {
 
 .form input {
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 
