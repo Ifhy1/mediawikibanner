@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 
@@ -44,6 +45,7 @@ body {
 .banner h1,
 .banner p {
   position: relative;
+  z-index: 999;
 }
 
 .banner h1 {
@@ -104,12 +106,12 @@ body {
 
 @media (max-width: 768px) {
   .banner {
-    min-height: 70vh;
+    min-height: 60vh;
     padding: 15px;
   }
 
   .banner h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .banner p {
